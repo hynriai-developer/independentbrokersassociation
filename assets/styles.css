@@ -58,3 +58,5 @@ nav.open{display:flex}
 .grid3,.grid2,.split,.cols,.row{grid-template-columns:1fr}
 .hero{padding:48px 0}
 }
+.hero.photo{background:linear-gradient(90deg,rgba(18,38,63,.92) 0%,rgba(18,38,63,.78) 55%,rgba(18,38,63,.55) 100%),url("hero.jpg") center/cover no-repeat;padding:110px 0}
+@media(max-width:800px){.hero.photo{padding:64px 0;background:linear-gradient(rgba(18,38,63,.85),rgba(18,38,63,.85)),url("hero.jpg") center/cover no-repeat}}
